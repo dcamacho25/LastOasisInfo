@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\CraftableMaterial.cs" />
+    <Compile Include="Models\CraftingMaterials.cs" />
     <Compile Include="Models\CraftingStation.cs" />
-    <Compile Include="Models\Material.cs" />
-    <Compile Include="Models\Recipe.cs" />
+    <Compile Include="Models\MaterialInfo.cs" />
     <Compile Include="Models\Tools.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

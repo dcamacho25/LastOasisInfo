@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LastOasisConsoleApp.Models
 {
-    public class Material
+    public class MaterialInfo
     {
         public string Name { get; set; }
         public string HarvestedWith { get; set; }

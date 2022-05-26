@@ -9,7 +9,7 @@ namespace LastOasisConsoleApp.Models
     public class CraftingStation
     {
         public string Name { get; set; }
-        public List<Material> FuelNeeded { get; set; }
+        public List<CraftingMaterials> CraftingMaterials { get; set; }
 
     }
 }

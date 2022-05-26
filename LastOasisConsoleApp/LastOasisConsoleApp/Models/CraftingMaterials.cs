@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LastOasisConsoleApp.Models
 {
-    public class Recipe
+    public class CraftingMaterials
     {
-        public List<Material> MatsNeeded { get; set; }
-        public List<CraftableMaterial> CraftableMaterialsNeeded { get; set; }
+        public string Name { get; set; }
+        public int QtyNeeded { get; set; }
     }
 }
